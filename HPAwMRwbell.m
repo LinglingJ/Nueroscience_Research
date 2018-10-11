@@ -181,11 +181,11 @@ kd5=0.0854;
 %------------------Membrane equation-------------%
 %y(1)=CRH;y(2)=ACTH;y(3)=CORT;y(4)=GR;y(5)=MR,
 
-    dy(1)=kstress*ki^n2/(ki^n2+y(4)^n2+y(5)^n2)-vs3*y(1)/(km1+y(1))-kd1*y(1);
-    dy(2)=kp2*y(1)*ki^n2/(ki^n2+y(4)^n2)-vs4*y(2)/(km2+y(2))-kd2*y(2);
-    dy(3)=kp3*y(2)-vs5*y(3)/(km3+y(3))-kd3*y(3);
-    dy(4)=kb*y(3)*(gtot-y(4))+vs2*y(4)^n1/(k1^n1+y(4)^n1)-kd5*y(4);
-    dy(5)=kb*y(3)*(gtot-y(5))+vs2*y(5)^n1/(k1^n1+y(5)^n1)-kd5*y(5);
+    dy(1)=DIFFERENTIAL EQUATIONS GO HERE
+    dy(2)=
+    dy(3)=
+    dy(4)=
+    dy(5)=
     
 dy=[dy(1);dy(2);dy(3);dy(4);dy(5)];
 
@@ -214,11 +214,11 @@ kd5=0.0854;
 %------------------Membrane equation-------------%
 %y(1)=CRH;y(2)=ACTH;y(3)=CORT;y(4)=GR;y(5)=MR,
 
-    dy(1)=kstress*ki^n2/(ki^n2+y(4)^n2+y(5)^n2)-vs3*y(1)/(km1+y(1))-kd1*y(1);
-    dy(2)=kp2*y(1)*ki^n2/(ki^n2+y(4)^n2)-vs4*y(2)/(km2+y(2))-kd2*y(2);
-    dy(3)=kp3*y(2)-vs5*y(3)/(km3+y(3))-kd3*y(3);
-    dy(4)=kb*y(3)*(gtot-y(4))+vs2*y(4)^n1/(k1^n1+y(4)^n1)-kd5*y(4);
-    dy(5)=kb*y(3)*(gtot-y(5))+vs2*y(5)^n1/(k1^n1+y(5)^n1)-kd5*y(5);
+    dy(1)=DIFFERENTIAL EQUATIONS GO HERE
+    dy(2)=
+    dy(3)=
+    dy(4)=
+    dy(5)=
     
 dy=[dy(1);dy(2);dy(3);dy(4);dy(5)];
 
